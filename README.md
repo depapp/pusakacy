@@ -1,2 +1,2 @@
 # pusakacy
-pusakacy is an automation tool based on cypress.io
+pusakacy is an automation testing tool based on cypress.io
