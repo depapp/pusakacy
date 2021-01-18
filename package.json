@@ -1,0 +1,27 @@
+{
+  "name": "pusakacy",
+  "version": "1.0.0",
+  "description": "pusakacy is an automation testing tool based on cypress.io",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depapp/pusakacy.git"
+  },
+  "keywords": [
+    "cypress.io"
+  ],
+  "author": "@depapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depapp/pusakacy/issues"
+  },
+  "homepage": "https://github.com/depapp/pusakacy#readme"
+}
