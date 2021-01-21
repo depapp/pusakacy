@@ -10,4 +10,4 @@ class HomePage {
 
 }
 
-module.exports = new HomePage()
+export default HomePage
