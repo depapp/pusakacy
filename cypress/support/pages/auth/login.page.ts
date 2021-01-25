@@ -1,4 +1,4 @@
-const Page = require('../common/page')
+import Page from '../common/page'
 
 const selectors = {
     inputUsername: '#user-name',
@@ -12,7 +12,7 @@ class LoginPage extends Page {
         return super.open()
     }
 
-    login (username, password) {
+    login (username: string, password: string) {
         cy.get(selectors.inputUsername).type(username)
         cy.get(selectors.inputPassword).type(password)
         cy.get(selectors.buttonSubmit).click()
@@ -20,4 +20,4 @@ class LoginPage extends Page {
     
 }
 
-module.exports = new LoginPage()
+export default LoginPage
