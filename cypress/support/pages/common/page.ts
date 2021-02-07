@@ -1,7 +1,7 @@
 class Page {
 
     open() {
-        cy.visit('https://www.saucedemo.com')
+        cy.visit('/')
     }
     
 }
