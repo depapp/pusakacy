@@ -1,5 +1,6 @@
 {
-    "baseUrl": "https://www.saucedemo.com",
-    "fixturesFolder": false,
-    "pluginsFile": false
+  "baseUrl": "https://www.saucedemo.com",
+  "fixturesFolder": false,
+  "pluginsFile": false,
+  "projectId": "fb9q9p"
 }
