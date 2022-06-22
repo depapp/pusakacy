@@ -1,5 +1,5 @@
 const selectors = {
-    title: '.product_label'
+    title: '.title'
 }
 
 class HomePage {
